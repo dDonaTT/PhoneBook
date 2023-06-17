@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background: rgb(0, 0, 0);
+    padding: 5px;
+    color: white;
+    font-family: 'Segoe UI';
+  }
+  
+  .container {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .heading {
+    display: inline;
+    font-size: 23px;
+  }
+  
+  .formButton {
+    display: inline;
+    background: rgb(67, 67, 234);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .edit{
+    display: inline;
+    background:green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .delete{
+    display: inline;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 65px auto;
+  }
+  
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
